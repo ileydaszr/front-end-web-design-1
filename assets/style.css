@@ -1,0 +1,333 @@
+
+li {
+   
+    float: left;
+}
+
+li a:hover {
+    background-color: #FBC643;
+    color: white;
+    border-radius: 10px;
+  }
+
+  ul {
+      
+    list-style-type: none;
+    padding-left: 300px;
+    padding-top: 30px;
+    overflow: hidden;
+   
+  }
+
+  li a {
+    display: block;
+    color: #333954;
+    text-align: center;
+    padding:12px 14px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+    opacity: 0.9;
+  }
+
+  a.active {
+    background-color: #FBC643;
+    color: white;
+    border-radius: 10px;
+  }
+
+  div.resim{
+    height: 700px;
+    width: 98% ;
+      background: url('../img/1.png');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      position : relative; 
+     
+  }
+
+  p.yazi {
+      font-family: "Copperplate", fantasy ;
+      color: #ECAA05;
+      font-size: 50px;
+      padding: 15px  80px 0px 450px ;
+      opacity: 0.8;
+      position: relative;
+      top: 40px;
+  }
+
+  p.yazi1 {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #FBC643;
+    font-size: 13px;
+    top: 40px;
+  right: 300px;
+  
+   display: flex;
+   justify-content: center;
+    
+    position: relative;
+    opacity: 0.8;
+}
+
+div.kutu {
+    background-color: #ECAA05;
+    width: 100%;
+      height:60px;
+}
+ 
+.golgeli-kutu {
+    box-shadow: 2px 2px 6px #000;
+    width:300px;
+    height: 100px;
+    font-size:20px ;
+ 
+    text-align: center;
+    font-family:  "Lucida Console", "Courier New", monospace;
+    position:relative;
+    left:750px;
+    opacity: 0.9;
+  
+    background:rgba(255, 255, 255, 0.89);
+    
+    
+  }
+
+  .golgeli-kutu1 {
+    box-shadow: 2px 2px 6px #000;
+    width:300px;
+    height: 100px;
+    font-size:20px ;
+    opacity: 0.9;
+    text-align: center;
+    font-family:  "Lucida Console", "Courier New", monospace;
+    position:relative;
+    left:800px;
+  
+    background:rgba(255, 255, 255, 0.89);
+    
+    
+  }
+
+  .golgeli-kutu2 {
+    box-shadow: 2px 2px 6px #000;
+    width:300px;
+    height: 100px;
+    font-size:20px ;
+    opacity: 0.9;
+    text-align: center;
+    font-family:  "Lucida Console", "Courier New", monospace;
+    position:relative;
+    left:800px;
+  
+    background:rgba(255, 255, 255, 0.89);
+    
+    
+  }
+
+  .golgeli-kutu3 {
+    box-shadow: 2px 2px 6px #000;
+    width:300px;
+    height: 100px;
+    font-size:20px ;
+    opacity: 0.9;
+    text-align: center;
+    font-family:  "Lucida Console", "Courier New", monospace;
+    position:relative;
+    left:770px;
+    z-index:-1;
+   
+
+  
+    background:rgba(255, 255, 255, 0.89);
+    
+    
+  }
+
+  .basit{
+    box-shadow: 2px 2px 6px rgb(75, 72, 72);
+  background-color: white;
+    border-radius: 100px;
+    width:70px;
+    height:70px;
+    position: absolute;
+    left: 700px;
+    background-image: url(../İKONLAR/7.png);
+    background-size: 100%;
+    z-index:1;
+    top: 15px;
+  }
+
+  .basit1{
+    box-shadow: 2px 2px 6px rgb(75, 72, 72);
+  background-color: white;
+    border-radius: 100px;
+    width:70px;
+    height:70px;
+    position: absolute;
+    left: 750px;
+    background-image: url(../İKONLAR/8.png);
+    background-size: 100%;
+    z-index:1;
+   top: 115px;
+  }
+
+  .basit2{
+    box-shadow: 2px 2px 6px rgb(75, 72, 72);
+  background-color: white;
+    border-radius: 100px;
+    width:70px;
+    height:70px;
+    position: absolute;
+    left: 750px;
+    background-image: url(../İKONLAR/9.png);
+    background-size: 100%;
+    z-index:1;
+    top: 215px;
+  }
+
+  .basit3{
+    box-shadow: 2px 2px 6px rgb(75, 72, 72);
+  background-color: white;
+    border-radius: 100px;
+    width:70px;
+    height:70px;
+    position: absolute;
+    left: 715px;
+    background-image: url(../İKONLAR/10.png);
+    background-size: 100%;
+    z-index:1;
+    top: 315px;
+   
+  }
+
+  p.yazi3 {
+    font-family: 	"Brush Script MT"  ;
+    color: #ECAA05;
+    font-size: 65px;
+    padding: 15px  80px 0px 450px ;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left:55px;
+   
+  
+}
+
+p.yazi4 {
+    font-family: 	"Brush Script MT"  ;
+    color: #ECAA05;
+    font-size: 90px;
+    padding: 15px  80px 0px 450px ;
+    text-align: center;
+    position: relative;
+    top: 230px;
+    right: 200px;
+}
+
+p.yazi5 {
+    font-family: 	"Brush Script MT"  ;
+    color: #ECAA05;
+    font-size: 90px;
+    padding: 15px  80px 0px 450px ;
+    text-align: center;
+    position: relative;
+    top: 450px;
+    right: 200px;
+}
+
+
+.golgeli-kutu6 {
+    box-shadow: 2px 2px 6px #000;
+    width:800px;
+    height: 450px;
+    font-size:35px ;
+    opacity: 0.9;
+    text-align: center;
+    font-family:  "	Copperplate";
+    position:relative;
+    left:770px;
+    z-index:-1;
+    top: -10px;
+    font-weight: bold;
+    color: #FBC643;
+   
+
+  
+    background:rgba(255, 255, 255, 0.89);
+    
+    
+  }
+
+  p.a {
+    color: #333954;
+    font-size:17px ;
+    font-family:  "	Copperplate";
+  }
+
+  .golgeli-kutu7 {
+    box-shadow: 2px 2px 6px #000;
+    width:1450px;
+    height: 250px;
+    font-size:23px ;
+    
+    text-align: center;
+    font-family:  "	Copperplate";
+    position:relative;
+    left:200px;
+    z-index:-1;
+    top: -50px;
+    font-weight: bold;
+    color: #ECAA05;
+   
+
+  
+    background:rgba(255, 255, 255, 0.89);
+    
+    
+  }
+
+  p.yazi6 {
+    font-family: 	"Brush Script MT"  ;
+    color: #ECAA05;
+    font-size: 90px;
+    padding: 15px  80px 0px 450px ;
+    text-align: center;
+    position: absolute;
+    top: 600px;
+    right: 200px;
+}
+
+
+  div.footer{
+   height: 300px;
+  
+      background: url('../img/5.png');
+      background-repeat: no-repeat;
+      background-size: 100%;
+  top: 1500px;
+    position: relative;
+   
+  
+     
+     
+  }
+
+   
+  p.end{
+font-family: "gergoia";
+color: #000;
+font-size: 18px;
+position: relative;
+top: 1250px;
+right:250px;
+  }
+
+  p.end1{
+    font-family: "gergoia";
+    color: #000;
+    font-size: 18px;
+    position: relative;
+    top: 1250px;
+    left: 50px;
+}
